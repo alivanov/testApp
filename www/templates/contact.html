@@ -1,5 +1,10 @@
 <ion-view view-title="Places">
   <ion-content>
-    <p>Places</p>
+    <ion-list ng-if="places.length > 0">
+      <ion-item ng-repeat="place in places" href="" ng-click="showPlaceDetails(place)">
+        {{place.name}}
+      </ion-item>
+    </ion-list>
+    <p ng-if="places.length == 0">No places found!</p>
   </ion-content>
 </ion-view>

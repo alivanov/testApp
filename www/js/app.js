@@ -13,7 +13,9 @@ angular.module('starter', [
     'ngCordova',
     'starter.controllers',
     'starter.services',
-    'starter.router'
+    'starter.router',
+    'nemLogging',
+    'uiGmapgoogle-maps'
   ])
   .run(function($ionicPlatform, $http, $rootScope) {
     $ionicPlatform.ready(function() {

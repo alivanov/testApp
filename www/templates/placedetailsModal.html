@@ -1,0 +1,13 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">{{selectedPlace.name}}</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeModal()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content data-tap-disabled="true" class="map-content">
+    <ui-gmap-google-map center="selectedPlace.map.center" zoom="selectedPlace.map.zoom">
+      <ui-gmap-marker coords="selectedPlace.map.center" options="selectedPlace.marker.options" idkey="selectedPlace.marker.id"></ui-gmap-marker>
+    </ui-gmap-google-map>
+  </ion-content>
+</ion-modal-view>
