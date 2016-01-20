@@ -1,5 +1,12 @@
 <ion-view view-title="People">
   <ion-content>
-    <p>People</p>
+    <div class="list" ng-if="people.length > 0">
+      <a class="item item-avatar" href="" ng-repeat="person in people" ng-click="showPersonDetails(person)">
+        <img ng-src="{{person.image}}">
+        <h2>{{person.firstName}} {{person.lastName}}</h2>
+        <p>{{person.email}}</p>
+      </a>
+    </div>
+    <p ng-if="people.length == 0">No people found!</p>
   </ion-content>
 </ion-view>

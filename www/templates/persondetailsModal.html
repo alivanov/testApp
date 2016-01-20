@@ -1,0 +1,55 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">{{selectedPerson.firstName}} {{selectedPerson.lastName}}</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeModal()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <div class="card">
+      <div class="item item-text-wrap">
+        <div class="row responsive-sm">
+
+          <div class="col">
+            <div class="row">
+              <div class="col"><strong>Biography</strong></div>
+              <div class="col">{{selectedPerson.biography}}</div>
+            </div>
+            <div class="row">
+              <div class="col"><strong>Email</strong></div>
+              <div class="col">{{selectedPerson.email}}</div>
+            </div>
+            <div class="row">
+              <div class="col"><strong>Phone1 ({{selectedPerson.phone1Type}})</strong></div>
+              <div class="col">{{selectedPerson.phone1Number}}</div>
+            </div>
+            <div class="row">
+              <div class="col"><strong>Phone1 ({{selectedPerson.phone2Type}})</strong></div>
+              <div class="col">{{selectedPerson.phone2Number}}</div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="row">
+              <div class="col"><strong>Adress</strong></div>
+              <div class="col">{{selectedPerson.place.address1}}</div>
+            </div>
+            <div class="row">
+              <div class="col"><strong>City</strong></div>
+              <div class="col text-c">{{selectedPerson.place.city}}</div>
+            </div>
+            <div class="row">
+              <div class="col"><strong>Postal Code</strong></div>
+              <div class="col">{{selectedPerson.place.postcode}}</div>
+            </div>
+            <div class="row">
+              <div class="col"><strong>Country</strong></div>
+              <div class="col text-c">{{selectedPerson.place.countryName}}</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

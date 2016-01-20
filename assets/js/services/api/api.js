@@ -1,17 +1,20 @@
 angular.module('starter.services').factory('API',
   function(CollectionsAPIFactory,
            EventsAPIFactory,
-           NewsAPIFactory) {
+           NewsAPIFactory,
+           PeopleAPIFactory) {
 
     var api = {
       Collections: {},
       Events: {},
-      News: {}
+      News: {},
+      People: {}
     };
 
     angular.extend(api.Collections, CollectionsAPIFactory);
     angular.extend(api.Events, EventsAPIFactory);
     angular.extend(api.News, NewsAPIFactory);
+    angular.extend(api.People, PeopleAPIFactory);
 
     return api;
   });
