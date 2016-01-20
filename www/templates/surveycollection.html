@@ -1,5 +1,13 @@
 <ion-view view-title="Surveys">
   <ion-content>
-    <p>Surveys</p>
+
+    <h2>{{item.question}}</h2>
+
+    <ion-list>
+      <ion-radio ng-model="$parent.data" ng-value="option" ng-repeat="option in item.options">{{option.text}}</ion-radio>
+    </ion-list>
+    <div class="padding">
+      <button class="button button-block button-positive" ng-click="submit(data)">Submit</button>
+    </div>
   </ion-content>
 </ion-view>
