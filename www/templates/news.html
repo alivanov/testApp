@@ -1,5 +1,20 @@
 <ion-view view-title="News">
   <ion-content>
-    <p>News</p>
+
+    <div ng-if="feed && feed.entries.length > 0">
+      <h2>
+        {{feed.description}}
+      </h2>
+
+      <ion-list>
+        <ion-item ng-repeat="entry in feed.entries">
+          <a href="" ng-click="openLink(entry.link)"><strong>{{entry.title}}</strong></a>
+          <p>{{entry.contentSnippet}}</p>
+        </ion-item>
+      </ion-list>
+    </div>
+
+    <p ng-if="!feed || feed.entries.length == 0">No news for now!</p>
+
   </ion-content>
 </ion-view>

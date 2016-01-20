@@ -1,4 +1,4 @@
-angular.module('starter.services').factory('EventsAPISevice', function($http, $q) {
+angular.module('starter.services').factory('EventsAPIFactory', function($http, $q) {
   var methods = {
 
     getEvents: function() {
