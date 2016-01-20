@@ -1,0 +1,370 @@
+{
+  "pages": {
+    "about": {
+      "id": "bc3ff4f7fd93dc54c399c5a2bdc588c5",
+      "name": "about",
+      "menuName": "About Us",
+      "featureName": "about",
+      "authFeatureId": "BLANK_AUTH",
+      "featureAdvertise": [],
+      "headline": "About My Company",
+      "body": "Some text about your company or your app goes here.",
+      "logoUrl": null,
+      "isDataComplete": true
+    },
+    "eventcollection": {
+      "id": "5986ab284e3032a07b066a41962a96e5",
+      "name": "eventcollection",
+      "menuName": "Events",
+      "featureName": "eventcollection",
+      "authFeatureId": "BLANK_AUTH",
+      "featureAdvertise": [],
+      "items": [
+        {
+          "id": "7c4904311723b3a81fec6766699f016f",
+          "name": "event",
+          "menuName": "Event",
+          "featureName": "event",
+          "authFeatureId": "BLANK_AUTH",
+          "featureAdvertise": [],
+          "eventId": "7c4904311723b3a81fec6766699f016f",
+          "eventName": "Test",
+          "description": "Simple description",
+          "reference": "123",
+          "startDate": "2016-01-15 01:00:00",
+          "endDate": "2016-01-15 02:00:00"
+        }
+      ]
+    },
+    "news": {
+      "id": "5136da419b08e098165613f33db7b31c",
+      "name": "news",
+      "menuName": "News",
+      "featureName": "news",
+      "authFeatureId": "BLANK_AUTH",
+      "featureAdvertise": [],
+      "news": {
+        "displayImage": true,
+        "displayHeadline": true,
+        "displayDate": true,
+        "displayExcerpt": true,
+        "displayReadMoreLink": false
+      },
+      "rssFeed": "http://news.yahoo.com/rss/",
+      "rssLimit": 10
+    },
+    "custompage": {
+      "id": "b1bffc5151bf09348a2f112053616796",
+      "name": "custompage",
+      "menuName": "Custom Page",
+      "featureName": "custompage",
+      "authFeatureId": "BLANK_AUTH",
+      "featureAdvertise": [],
+      "body": "custom page",
+      "isDataComplete": true
+    },
+    "people": {
+      "id": "63d06df350a507d393441562b35eab9f",
+      "name": "people",
+      "menuName": "People",
+      "featureName": "people",
+      "authFeatureId": "BLANK_AUTH",
+      "featureAdvertise": [],
+      "groupBy": "none",
+      "items": [
+        {
+          "id": "19",
+          "firstName": "Firstname",
+          "lastName": "Lastname",
+          "biography": "This is a biography test.",
+          "phone1Type": "direct",
+          "phone1Number": "123456789",
+          "phone2Type": "mobile",
+          "phone2Number": "123456789",
+          "email": "firstperson@firstperson.com",
+          "position": "",
+          "department": "",
+          "place": {
+            "name": "test",
+            "phone": null,
+            "email": null,
+            "url": null,
+            "address1": "315 victoria road",
+            "address2": null,
+            "state": "victoria",
+            "postcode": "3071",
+            "city": "thornbury",
+            "countryId": "13",
+            "countryName": "Australia",
+            "country": "Australia",
+            "latitude": "-37.759609",
+            "longitude": "145.01293199999998",
+            "hours": {
+              "monday": null,
+              "tuesday": null,
+              "wednesday": null,
+              "thursday": null,
+              "friday": null,
+              "saturday": null,
+              "sunday": null
+            },
+            "pdfActive": false,
+            "placePdf": {
+              "title": null,
+              "url": ""
+            }
+          },
+          "image": "http://img1.jurko.net/avatar_19707.jpg",
+          "personCustomFields": []
+        },
+        {
+          "id": "20",
+          "firstName": "Firstname2",
+          "lastName": "Lastname2",
+          "biography": "This is antoher biography test.",
+          "phone1Type": "mobile",
+          "phone1Number": "123456789",
+          "phone2Type": "home",
+          "phone2Number": "123789451",
+          "email": "firstandlast2@gmail.com",
+          "position": "",
+          "department": "",
+          "place": {
+            "name": "test",
+            "phone": null,
+            "email": null,
+            "url": null,
+            "address1": "315 victoria road",
+            "address2": null,
+            "state": "victoria",
+            "postcode": "3071",
+            "city": "thornbury",
+            "countryId": "13",
+            "countryName": "Australia",
+            "country": "Australia",
+            "latitude": "-37.759609",
+            "longitude": "145.01293199999998",
+            "hours": {
+              "monday": null,
+              "tuesday": null,
+              "wednesday": null,
+              "thursday": null,
+              "friday": null,
+              "saturday": null,
+              "sunday": null
+            },
+            "pdfActive": false,
+            "placePdf": {
+              "title": null,
+              "url": ""
+            }
+          },
+          "image": "http://img1.jurko.net/avatar_18063.jpg",
+          "personCustomFields": []
+        }
+      ],
+      "url": "/default/peopleList/"
+    },
+    "contact": {
+      "id": "5021f455f5debb4d8536f06d61509c33",
+      "name": "contact",
+      "menuName": "Places",
+      "featureName": "contact",
+      "authFeatureId": "BLANK_AUTH",
+      "featureAdvertise": [],
+      "listType": "list",
+      "sortBy": "alphabetical",
+      "groupBy": "none",
+      "showMap": true,
+      "allowVote": false,
+      "showThumbnail": true,
+      "voteEmail": null,
+      "items": [
+        {
+          "id": "5",
+          "name": "Test place",
+          "address1": "Parliament House",
+          "address2": null,
+          "suburb": null,
+          "state": "Victoria",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "longitude": "144.97377030000007",
+          "latitude": "-37.8110532",
+          "postcode": "3000",
+          "city": "",
+          "country": "Australia",
+          "hours": null,
+          "pdfFile": null,
+          "pdfTitle": null,
+          "pdfFileUrl": "",
+          "pdfActive": false,
+          "description": null,
+          "imageUrl": ""
+        }
+      ],
+      "mapItems": [],
+      "submitVoteUrl": "default/submitPlaceVote/"
+    },
+    "surveycollection": {
+      "id": "ccfa303b744941e78ec31697ee401fa6",
+      "name": "surveycollection",
+      "menuName": "Surveys",
+      "featureName": "surveycollection",
+      "authFeatureId": "BLANK_AUTH",
+      "featureAdvertise": [],
+      "items": [
+        {
+          "id": "fea2e09ccaedf8b02c93cc8fa7eb6e81",
+          "name": "survey",
+          "menuName": "Survey",
+          "featureName": "survey",
+          "authFeatureId": "BLANK_AUTH",
+          "featureAdvertise": [],
+          "surveyId": "2",
+          "surveyName": "test",
+          "description": null,
+          "emailTo": null,
+          "startAt": "2015-05-03 11:05:00",
+          "endAt": "2016-05-02 11:05:00",
+          "isSubmitOnce": "0",
+          "surveyImage": "",
+          "questions": [
+            {
+              "id": "2",
+              "name": null,
+              "index": 0,
+              "isEndpoint": "0",
+              "type": "number",
+              "question": "Test",
+              "min": "0",
+              "max": null,
+              "optionMin": null,
+              "optionMax": null,
+              "position": "1",
+              "validation": "integer",
+              "questionImage": "",
+              "options": []
+            },
+            {
+              "id": "6",
+              "name": null,
+              "index": 4,
+              "isEndpoint": "0",
+              "type": "multi-multi",
+              "question": "test",
+              "min": "1",
+              "max": "1",
+              "optionMin": null,
+              "optionMax": null,
+              "position": "2",
+              "validation": null,
+              "questionImage": "",
+              "options": [
+                {
+                  "id": "1",
+                  "nextQuestionId": null,
+                  "text": "test1",
+                  "position": "1"
+                },
+                {
+                  "id": "2",
+                  "nextQuestionId": null,
+                  "text": "test2",
+                  "position": "2"
+                },
+                {
+                  "id": "3",
+                  "nextQuestionId": null,
+                  "text": "test3",
+                  "position": "3"
+                }
+              ]
+            },
+            {
+              "id": "7",
+              "name": null,
+              "index": 5,
+              "isEndpoint": "0",
+              "type": "paragraph",
+              "question": "Test2",
+              "min": "0",
+              "max": "256",
+              "optionMin": null,
+              "optionMax": null,
+              "position": "3",
+              "validation": null,
+              "questionImage": "",
+              "options": []
+            },
+            {
+              "id": "8",
+              "name": null,
+              "index": 6,
+              "isEndpoint": "0",
+              "type": "sentence",
+              "question": "This is a question",
+              "min": "1",
+              "max": "256",
+              "optionMin": null,
+              "optionMax": null,
+              "position": "4",
+              "validation": null,
+              "questionImage": "",
+              "options": []
+            },
+            {
+              "id": "3",
+              "name": "test page",
+              "index": 1,
+              "isEndpoint": "0",
+              "type": "none",
+              "question": "Page test",
+              "min": null,
+              "max": null,
+              "optionMin": null,
+              "optionMax": null,
+              "position": "5",
+              "validation": null,
+              "questionImage": "",
+              "options": []
+            },
+            {
+              "id": "5",
+              "name": "Test headline",
+              "index": 3,
+              "isEndpoint": "0",
+              "type": "none",
+              "question": "Test",
+              "min": null,
+              "max": null,
+              "optionMin": null,
+              "optionMax": null,
+              "position": "6",
+              "validation": null,
+              "questionImage": "/cdn/organisation/1/files/surveyquestionimage/ba6f215bf195e50043c5e6a67e1d26e74b27575e_394_preview.png",
+              "options": []
+            },
+            {
+              "id": "4",
+              "name": "Test headline",
+              "index": 2,
+              "isEndpoint": "1",
+              "type": "none",
+              "question": "Test",
+              "min": null,
+              "max": null,
+              "optionMin": null,
+              "optionMax": null,
+              "position": "7",
+              "validation": null,
+              "questionImage": "/cdn/organisation/1/files/surveyquestionimage/ba6f215bf195e50043c5e6a67e1d26e74b27575e_393_preview.png",
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
