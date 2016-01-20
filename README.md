@@ -1,7 +1,7 @@
 # Ionic test app
 
-    $ git clone https://github.com/alivanov/ionic_test.git
-    $ cd ionic_test
+    $ git clone https://github.com/alivanov/testApp.git
+    $ cd testApp
     $ npm install
     $ ./node_modules/.bin/gulp install (or bower install)
     $ ./install_plugins.sh
