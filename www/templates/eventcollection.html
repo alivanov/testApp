@@ -1,5 +1,10 @@
 <ion-view view-title="Events">
   <ion-content>
-    <p>Events</p>
+    <ion-list ng-if="events.length > 0">
+      <ion-item ng-repeat="event in events" ui-sref="app.eventdetails({id: event.id})">
+        {{event.name}}
+      </ion-item>
+    </ion-list>
+    <p ng-if="events.length == 0">No events found!</p>
   </ion-content>
 </ion-view>

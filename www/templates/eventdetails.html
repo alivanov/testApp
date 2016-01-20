@@ -1,5 +1,25 @@
-<ion-view view-title="Details">
+<ion-view>
+  <ion-nav-title class="text-c">{{event.name}} Details</ion-nav-title>
   <ion-content>
-    <p>Event details</p>
+    <div class="card">
+      <div class="item item-text-wrap">
+        <div class="row">
+          <div class="col">NAME</div>
+          <div class="col">{{event.name}}</div>
+        </div>
+        <div class="row">
+          <div class="col">DESCRIPTION</div>
+          <div class="col">{{event.description}}</div>
+        </div>
+        <div class="row">
+          <div class="col">START</div>
+          <div class="col">{{event.startDate | date : 'dd MMM YY HH:MM'}}</div>
+        </div>
+        <div class="row">
+          <div class="col">END</div>
+          <div class="col">{{event.endDate | date : 'dd MMM YY HH:MM'}}</div>
+        </div>
+      </div>
+    </div>
   </ion-content>
 </ion-view>
